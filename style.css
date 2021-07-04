@@ -1,7 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 body {
     font-family: 'PT Sans', sans-serif;
+    width: 80%;
+    margin: 1% auto;
 }
 .name {
     color: orangered;
+}
+h1 {
+    font-size: 3vw;
+}
+section {
+    display: flex;
+}
+.half-width {
+    width: 50%;
+}
+.half-width img {
+    width: 100%;
+    margin-left: 5%;
+}
+.half-width #wel {
+    margin-top: 10%;
 }
