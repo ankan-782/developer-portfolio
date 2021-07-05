@@ -5,6 +5,7 @@ body {
 }
 section {
     display: flex;
+    margin-bottom: 10%;
 }
 .top-banner {
     background-image: url(images/top-banner.png);
@@ -27,14 +28,16 @@ h1 {
     margin-left: 10%;
 }
 .dream-big {
-    margin-top: 5%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .dream-left-sidepart {
     margin-left: 5%;
 }
 .dream-right-sidepart {
     margin-left: 10%;
-    margin-right: 2%;
+    padding-right: 5%;
 }
 .half-width img {
     width: 90%;
